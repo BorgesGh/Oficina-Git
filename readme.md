@@ -8,6 +8,8 @@
 <p>Caso estiver no Linux, utilize</p>
 <code>apt-get install git-flow</code>
 
+<p>É Recomendado que um repositório contenham 2 branchs: <b>main e develop</b></p>
+
 # Comandos auxiliares
 
 1. Abrir uma pasta com um arquivo e executar<br>
@@ -23,3 +25,4 @@
 <code>git remote add origin <link do repositório> </code> <br>
 7. Agora publicas as mudanças no GitHub  <br>
 <code>git push -u origin < nome da branch atual > </code> <br>
+
