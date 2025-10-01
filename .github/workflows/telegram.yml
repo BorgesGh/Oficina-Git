@@ -1,0 +1,17 @@
+name: Notify Telegram on Commit
+
+on:
+  push:
+    branches:
+      - frontend
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Telegram Message
+        run: |
+          MESSAGE="🚀 Novo commit na branch Frontend: ${{ github.event.head_commit.message }} por ${{ github.actor }}"
+          curl -s -X POST https://api.telegram.org/bot${{ secrets.TELEGRAM_TOKEN }}/sendMessage \
+            -d chat_id=${{ secrets.TELEGRAM_CHAT_ID }} \
+            -d text="$MESSAGE"
