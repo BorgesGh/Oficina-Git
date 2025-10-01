@@ -3,7 +3,7 @@
 ## Tutorial de instalação do GitFlow
 
 <p>Execute o seguinte comando no PowerShell do Windows como administrador</p>
-<code>wget -q -O --no-check-certificate https://github.com/nvie/gitflow/raw/develop/contrib/gitflow-installer.sh </code>
+<code>wget -O --no-check-certificate https://github.com/nvie/gitflow/raw/develop/contrib/gitflow-installer.sh | bash</code>
 
 <p>Caso estiver no Linux, utilize</p>
 <code>apt-get install git-flow</code>
@@ -25,6 +25,7 @@
 <code>git remote add origin <link do repositório> </code> <br>
 7. Agora publicar as mudanças no GitHub  <br>
 <code>git push -u origin < nome da branch atual > </code> <br> 
+
 
 
 
