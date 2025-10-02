@@ -24,7 +24,8 @@
 6. Linkar repositório online com o Local <br>
 <code>git remote add origin <link do repositório> </code> <br>
 7. Agora publicar as mudanças no GitHub  <br>
-<code>git push -u origin < nome da branch atual > </code> <br> 
+<code>git push -u origin < nome da branch atual > </code> <br> a
+
 
 
 
